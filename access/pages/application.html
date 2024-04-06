@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odontico.lab | оформление заказа</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="header-pages-list">
+        <div class="application-image">
+            <img src="../image/zq.svg" alt="">
+        </div>
+        <div class="number-pages">
+            <span>01</span>
+        </div>
+        <div class="text-two-slider-general">
+            <div class="portfolio-thumb">
+                <span class="rev-block">
+                    <span id="application-width">оформить заказ</span>
+                </span>
+            </div>
+        </div>
+        <div class="form-pages">
+            <form action="/submit_form" method="post">
+                <input type="text" id="name" name="name" required placeholder="Имя:"><br><br>
+                <input type="tel" id="phone" name="phone" required placeholder="Номер телефона:"><br><br>
+                <select id="feedback" name="feedback" >
+                    <option value="general">Коронка (полная анатомия) на культе</option>
+                    <option value="technical">Коронка (полная анатомия) на имплантате винтовая фиксация</option>
+                    <option value="billing">Каркас на культе </option>
+                    <option value="other">Каркас на имплантате винтовая фиксация </option>
+                </select><br><br>
+                
+                <input id="mes" type="submit" value="отправить">
+            </form>
+            
+        </div>
+        <div class="close-link">
+            <a href="../../index.html">назад</a>
+        </div>
+        <div class="nav-logo">
+            <div class="lab">
+                <a href="index.html">laboratory</a>
+            </div>
+            <div class="num">
+                <a href="tel: +7(926)357-15-14">+7(926)357-15-14</a>
+            </div>
+        </div>
+    </div>
+    <script src="../../script-cursor.js"></script>
+</body>
+</html>

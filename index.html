@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>odontico.lab</title>
+    <link rel="icon" type="image/png" sizes="128x128" href="/access/image/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="slider">
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+        <div class="slide active">
+            <div class="image-slider-one">
+                <img src="access/image/image-one.png" draggable="false">
+            </div>
+            <div id="wrapper">
+                <div class="text-one">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>ОДОНТИКО</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="text-two">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>цифровое пространство</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="text-three">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>Мы хотим быть первым выбором для наших клиентов, предлагая высококачественную
+                                продукцию и всегда используя <p>передовые технологии, чтобы продолжать стремиться к </p>
+                                совершенству вместе с вами.</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="text-four">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>Мы всегда держим ваши потребности на переднем плане и работаем с вами, чтобы найти
+                                оптимальное решение.</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="button-slider-one">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <a>оформить заказ</a>
+                        </span>
+                        <div class="button-logo">
+                            <div class="button-logo-telegram">
+                                <a href=""><img src="access/image/Vector (1).svg" alt=""></a>
+                            </div>
+                            <div class="button-logo-whatsapp">
+                                <a href=""><img src="access/image/Vector.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="image-slider-general">
+                <div class="image-box-animal"></div>
+                <img src="access/image/image-two.png" alt="">
+            </div>
+            <div id="wrapper">
+                <div class="text-one-slider-general">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>УСЛУГИ И ЦЕНЫ</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="text-two-slider-general">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span id="rev-width-slider-two">для стоматологов</span>
+                        </span>
+                    </div>
+                </div>
+                <div id="prise-slide-one" class="prise-slide">
+                    <div class="prise-general-one">
+                        <a href="access/pages/metalloceramicOne.html">металлокерамика</a>
+                    </div>
+                    <div class="prise-slide-subtext">
+                        <a href="access/pages/metalloceramicOne.html">кутьевая вкладка из кхс Металлокерамическая коронка на культе Металлокерамическая коронка на имплантате Изготовление индивидуального абатмента</a>
+                    </div>
+                </div>
+                <div id="prise-slide-two" class="prise-slide">
+                    <div class="prise-general-one">
+                        <a href="access/pages/ZrO2One.html">ZrO2</a>
+                    </div>
+                    <div class="prise-slide-subtext">
+                        <a href="access/pages/ZrO2One.html">кутьевая вкладка из кхс Металлокерамическая коронка на культе Металлокерамическая коронка на имплантате Изготовление индивидуального абатмента</a>
+                    </div>
+                </div>
+                <div id="prise-slide-three" class="prise-slide">
+                    <div class="prise-general-one">
+                        <a href="access/pages/pressCeramicOne.html">пресс керамика</a>
+                    </div>
+                    <div class="prise-slide-subtext">
+                        <a href="access/pages/pressCeramicOne.html">кутьевая вкладка из кхс Металлокерамическая коронка на культе Металлокерамическая коронка на имплантате Изготовление индивидуального абатмента</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="slide">
+            <div class="image-slider-general">
+                <img src="access/image/image-three.jpeg" alt="">
+            </div>
+            <div id="wrapper">
+                <div class="text-one-slider-general">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>УСЛУГИ И ЦЕНЫ</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="text-two-slider-general">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span id="rev-width-slider-three">для техников</span>
+                        </span>
+                    </div>
+                </div>
+                <div id="prise-slide-one" class="prise-slide">
+                    <div class="prise-general-one">
+                        <a href="access/pages/STLCOL.html">STL/Окрашивание</a>
+                    </div>
+                    <div class="prise-slide-subtext">
+                        <a href="access/pages/STLCOL.html">кутьевая вкладка из кхс Металлокерамическая коронка на культе Металлокерамическая коронка на имплантате Изготовление индивидуального абатмента</a>
+                    </div>
+                </div>
+                <div id="prise-slide-two" class="prise-slide">
+                    <div class="prise-general-one">
+                        <a href="access/pages/ZrO2Two.html">ZrO2</a>
+                    </div>
+                    <div class="prise-slide-subtext">
+                        <a href="access/pages/ZrO2Two.html">кутьевая вкладка из кхс Металлокерамическая коронка на культе Металлокерамическая коронка на имплантате Изготовление индивидуального абатмента</a>
+                    </div>
+                </div>
+                <div id="prise-slide-three" class="prise-slide">
+                    <div class="prise-general-one">
+                        <a href="access/pages/pressCeramicTwo.html">пресс керамика</a>
+                    </div>
+                    <div class="prise-slide-subtext">
+                        <a href="access/pages/pressCeramicTwo.html">кутьевая вкладка из кхс Металлокерамическая коронка на культе Металлокерамическая коронка на имплантате Изготовление индивидуального абатмента</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="slide">
+            <div id="image-slider-general" class="image-slider-general">
+                <img src="access/image/image-four.png" alt="">
+            </div>
+            <div id="wrapper">
+                <div class="text-one-slider-general">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>PRIME ZrO2</span>
+                        </span>
+                    </div>
+                </div>
+                <div id="prise-slide-one-prime" class="prise-slide">
+                    <div class="prise-general-one">
+                        <a href="access/pages/primeOne.html">e.max ZirCAD - для врачей</a>
+                    </div>
+                    <div class="prise-slide-subtext">
+                        <a href="access/pages/primeOne.html">кутьевая вкладка из кхс Металлокерамическая коронка на культе Металлокерамическая коронка на имплантате Изготовление индивидуального абатмента</a>
+                    </div>
+                </div>
+                <div id="prise-slide-two-prime" class="prise-slide">
+                    <div class="prise-general-one">
+                        <a href="access/pages/primeTwo.html">e.max ZirCAD - для техников</a>
+                    </div>
+                    <div class="prise-slide-subtext">
+                        <a href="access/pages/primeTwo.html">кутьевая вкладка из кхс Металлокерамическая коронка на культе Металлокерамическая коронка на имплантате Изготовление индивидуального абатмента</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div id="wrapper">
+                <div class="text-one-slider-general">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>ЧЕТЫРЕ</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="text-two-slider-general">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span id="rev-width-slider-five">способа сделать заказ</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="sliderTwo">
+                    <div class="slides">
+                      <div class="slideTwo">
+                        <div class="image-slideTwo">
+                            <img src="access/image/image-five 2.svg" alt="">
+                        </div>
+                        <div class="prise-slideTwo-listOne">
+                            <div class="prise-text-listOne">
+                                <span>отправка гипсовых моделей</span>
+                            </div>
+                        </div>
+                        <div class="prise-slideTwo-listTwo">
+                            <div class="prise-text-listOne">
+                                <span>отправка оттисков</span>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="slideTwo">
+                        <div class="image-slideTwo">
+                            <img src="access/image/image-six 1.svg" alt="">
+                        </div>
+                        <div class="prise-slideTwo-listOne">
+                            <div class="prise-text-listOne">
+                                <span>отправка отсканированных данных модели</span>
+                            </div>
+                        </div>
+                        <div class="prise-slideTwo-listTwo">
+                            <div class="prise-text-listOne">
+                                <span>отправка данных внутриротового сканирования</span>
+                            </div>
+                        </div>
+                      </div>
+                    <button class="prevTwo">
+                        <img src="access/image/prev.svg">
+                    </button>
+                    <button class="nextTwo">
+                        <img src="access/image/next.svg">
+                    </button>
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div id="image-slider-general" class="image-slider-general">
+                <img src="access/image/maps.svg" alt="">
+            </div>
+            <div id="wrapper">
+                <div class="text-one-slider-general">
+                    <div class="portfolio-thumb">
+                        <span class="rev-block">
+                            <span>КОНТАКТЫ</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-wrapper">
+                    <nav>
+                          <a href="tel: +7(926)357-15-14" class="hover-this" id="animals-hov-this-one"><span>телефон :+7(926)357-15-14 </span></a>
+                          <a href="tel: +7(985)245-11-10" class="hover-this" id="animals-hov-this-one"><span>телефон :+7(985)245-11-10</span></a>
+                          <a href="#" class="hover-this" id="animals-hov-this-two"><span>понедельник-суббота | 08:00-20:00</span></a>
+                          <a href="mailto:odontico@mail.ru " class="hover-this" id="animals-hov-this-three"><span>mail:odontico@mail.ru</span></a>
+                          <a href="https://yandex.ru/maps/213/moscow/house/3_ya_parkovaya_ulitsa_41a/Z04YcQ9hS0YBQFtvfXRxcXtnZg==/?ll=37.781237%2C55.800742&z=16.57" class="hover-this" id="animals-hov-this-four"><span>адрес: г.Москва, ул.Парковая 3-я 41А</span></a>
+                    </nav>
+              </div>
+              <div class="social-network">
+                <div class="logo-whatsapp">
+                    <a href=""><img src="access/image/Vector (1).svg" alt=""></a>
+                </div>
+                <div class="logo-telegram">
+                    <a href=""><img src="access/image/Vector.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <button class="prev"></button>
+        <button class="next"></button>
+        <div class="next-animate-box">
+            <div class="next-animate"></div>
+            <div class="next-animate-two"></div>
+            <div class="next-animate-three"></div>
+            <div class="next-animate-four"></div>
+        </div>
+        <div class="prev-animate-box">
+            <div class="prev-animate"></div>
+            <div class="prev-animate-two"></div>
+            <div class="prev-animate-three"></div>
+            <div class="prev-animate-four"></div>
+        </div>
+    </div>
+    <div class="nav-logo">
+        <div class="lab">
+            <a href="index.html">laboratory</a>
+        </div>
+        <div class="num">
+            <a href="tel: +7(926)357-15-14">+7(926)357-15-14</a>
+        </div>
+    </div>
+    <!-- portals -->
+    <script src="script-cursor.js"></script>
+    <script src="script-slider.js"></script>
+</body>
+
+</html>
