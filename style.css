@@ -316,7 +316,7 @@ button {
     left: 0;
     width: 25%;
     height: 100%;
-    background-color: #262626;
+    background-color: #202020;
     transition: top 0.3s;
     opacity: 0;
 }
@@ -327,7 +327,7 @@ button {
     left: 25%;
     width: 25%;
     height: 100%;
-    background-color: #262626;
+    background-color: #202020;
     transition: top 0.5s;
     opacity: 0;
 }
@@ -338,7 +338,7 @@ button {
     left: 50%;
     width: 25%;
     height: 100%;
-    background-color: #262626;
+    background-color: #202020;
     transition: top .7s;
     opacity: 0;
 }
@@ -349,7 +349,7 @@ button {
     left: 75%;
     width: 25%;
     height: 100%;
-    background-color: #262626;
+    background-color: #202020;
     transition: top .9s;
     /* Анимация спуска квадрата */
     opacity: 0;
@@ -371,7 +371,7 @@ button {
     left: 0;
     width: 25%;
     height: 100%;
-    background-color: #262626;
+    background-color: #202020;
     transition: top .3s;
     opacity: 0;
 }
@@ -382,7 +382,7 @@ button {
     left: 25%;
     width: 25%;
     height: 100%;
-    background-color: #262626;
+    background-color: #202020;
     transition: top .5s;
     opacity: 0;
 }
@@ -393,7 +393,7 @@ button {
     left: 50%;
     width: 25%;
     height: 100%;
-    background-color: #262626;
+    background-color: #202020;
     transition: top .7s;
     opacity: 0;
 }
@@ -404,7 +404,7 @@ button {
     left: 75%;
     width: 25%;
     height: 100%;
-    background-color: #262626;
+    background-color: #202020;
     transition: top .9s;
     opacity: 0;
 }
